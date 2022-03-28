@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET_MVC_HomeWork", "ASP
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HomeWork1", "HomeWork1", "{98E19FFC-6262-4143-8C77-C109B43CEC33}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_Fib", "Wpf_Fib\Wpf_Fib.csproj", "{18E9FA39-2D7F-4599-8EC5-F77DC0CDB9C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,9 +19,16 @@ Global
 		{EC3BC1F8-342D-4F85-9EED-AE4C04BC3946}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC3BC1F8-342D-4F85-9EED-AE4C04BC3946}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC3BC1F8-342D-4F85-9EED-AE4C04BC3946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18E9FA39-2D7F-4599-8EC5-F77DC0CDB9C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E9FA39-2D7F-4599-8EC5-F77DC0CDB9C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E9FA39-2D7F-4599-8EC5-F77DC0CDB9C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E9FA39-2D7F-4599-8EC5-F77DC0CDB9C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{18E9FA39-2D7F-4599-8EC5-F77DC0CDB9C0} = {98E19FFC-6262-4143-8C77-C109B43CEC33}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D10C8641-79E9-4620-81C7-FC564C28D01A}
