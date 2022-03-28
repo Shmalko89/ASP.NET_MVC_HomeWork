@@ -7,6 +7,7 @@ namespace Wpf_Fib
 
     public partial class MainWindow : Window
     {
+        //Задание 1 и 2
         public MainWindow()
         {
             InitializeComponent();
@@ -39,4 +40,7 @@ namespace Wpf_Fib
                 return Fibonachi(a - 2) + Fibonachi(a - 1);
         }
     }
+
+    //Задание 3
+    //fib_thread.Interrupt(); System.Threading.ThreadInterruptedException: "Поток был прерван, когда находился в состоянии ожидания."
 }
