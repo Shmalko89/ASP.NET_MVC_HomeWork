@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HomeWork2", "HomeWork2", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW2", "HW2\HW2.csproj", "{DDE8F3B2-E802-4069-AF0D-FCDC5204F837}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW2_1", "HW2_1\HW2_1.csproj", "{DD212EDD-8D8F-495E-9356-041FC92A7FB0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{DDE8F3B2-E802-4069-AF0D-FCDC5204F837}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDE8F3B2-E802-4069-AF0D-FCDC5204F837}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDE8F3B2-E802-4069-AF0D-FCDC5204F837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD212EDD-8D8F-495E-9356-041FC92A7FB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD212EDD-8D8F-495E-9356-041FC92A7FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD212EDD-8D8F-495E-9356-041FC92A7FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD212EDD-8D8F-495E-9356-041FC92A7FB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{18E9FA39-2D7F-4599-8EC5-F77DC0CDB9C0} = {98E19FFC-6262-4143-8C77-C109B43CEC33}
 		{DDE8F3B2-E802-4069-AF0D-FCDC5204F837} = {DB0BFC74-025D-4EBA-839B-BC66F9720040}
+		{DD212EDD-8D8F-495E-9356-041FC92A7FB0} = {DB0BFC74-025D-4EBA-839B-BC66F9720040}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D10C8641-79E9-4620-81C7-FC564C28D01A}
