@@ -1,0 +1,16 @@
+﻿<Window x:Class="HW2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HW2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Name="StartButton" Content="Start" HorizontalAlignment="Left" Margin="211,289,0,0" VerticalAlignment="Top" Height="54" Width="108" Click="StartCalculation_ButtonClick"/>
+        <Button Name="CancelButton" IsEnabled="false" Content="Cancel" HorizontalAlignment="Left" Margin="478,289,0,0" VerticalAlignment="Top" Height="54" Width="102" Click="CancelCalculation_ButtonClick"/>
+        <TextBlock Name="ResultTextBlock" HorizontalAlignment="Left" Margin="242,182,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="35" Width="296"/>
+        <ProgressBar Name="ProgressInformer" HorizontalAlignment="Left" Height="22" Margin="81,374,0,0" VerticalAlignment="Top" Width="618" Value="100"/>
+
+    </Grid>
+</Window>
