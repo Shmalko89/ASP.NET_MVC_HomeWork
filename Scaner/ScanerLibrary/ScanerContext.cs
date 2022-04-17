@@ -7,6 +7,11 @@ public class ScanerContext
     private readonly IScanerDevice? _device;
     private readonly ILogger? _logger;
     private readonly IScanOutputStrategy? _outputStrategy;
+
+    public ScanerContext()
+    {
+    }
+
     private ScanerContext(IScanerDevice device, ILogger logger, IScanOutputStrategy outputStrategy)
     {
         _device = device;
