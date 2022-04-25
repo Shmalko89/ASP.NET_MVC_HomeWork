@@ -61,10 +61,10 @@ namespace ConsoleFileManager
                 PrintItem(item);
             }
 
-        }
+        }*/
         public static void Main(string[] args)
         {
-
+            /*
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.CursorVisible = false;
             //Создание переменной с присвоением класса 
@@ -141,13 +141,22 @@ namespace ConsoleFileManager
 
     }
         */
-        DriveInfo[] allDrives = DriveInfo.GetDrives();
+            DriveInfo[] allDrives = DriveInfo.GetDrives();
+            const string template_file = "template.docx";
 
-        static void CreateReport (IDiskReport generator, DriveInfo drives)
-        {
-            generator.DiskName = drives.Name;
-            generator.FreeSpace = drives.AvailableFreeSpace;
+            IDiskReport report = new DiskReport();
+            CreateReport(report, allDrives, template_file);
+            static void CreateReport(IDiskReport generator, DriveInfo[] drives, string TemplateFile)
+            {
+                foreach (DriveInfo drive in drives)
+                {
+                    generator.DiskName = drive.Name;
+                    generator.FreeSpace = drive.AvailableFreeSpace;
+                }
+                var report_file = generator.Create(TemplateFile);
+            }
+
         }
-    }
 
+    }
 }
