@@ -7,7 +7,7 @@ namespace ConsoleFileManager
 
     public class Program
     {
-
+        /*
         //Реализация отображения размерности файлов
         static string SizeFormat(long size)
         {
@@ -139,6 +139,10 @@ namespace ConsoleFileManager
 
 
     }
+        */
+        DriveInfo[] allDrives = DriveInfo.GetDrives();
 
+
+    }
 
 }
