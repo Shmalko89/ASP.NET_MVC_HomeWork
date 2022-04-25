@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FileManager.Reports;
+using System;
 using System.Collections.Generic;
 using System.IO;
 
@@ -142,7 +143,10 @@ namespace ConsoleFileManager
         */
         DriveInfo[] allDrives = DriveInfo.GetDrives();
 
+        static void CreateReport (IDiskReport generator, DriveInfo[] drives)
+        {
 
+        }
     }
 
 }
