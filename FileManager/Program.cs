@@ -143,9 +143,10 @@ namespace ConsoleFileManager
         */
         DriveInfo[] allDrives = DriveInfo.GetDrives();
 
-        static void CreateReport (IDiskReport generator, DriveInfo[] drives)
+        static void CreateReport (IDiskReport generator, DriveInfo drives)
         {
-
+            generator.DiskName = drives.Name;
+            generator.FreeSpace = drives.AvailableFreeSpace;
         }
     }
 
